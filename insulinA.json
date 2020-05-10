@@ -1,0 +1,11 @@
+[
+	{ "min": "0",  "max": "89",  "insulinAdjust": "-1.0"},
+	{ "min": "90",  "max": "109",  "insulinAdjust": "-0.6"},
+	{ "min": "110",  "max": "139",  "insulinAdjust": "-0.3"},
+	{ "min": "140",  "max": "179",  "insulinAdjust": "0"},
+	{ "min": "180",  "max": "219",  "insulinAdjust": "0.2"},
+	{ "min": "220",  "max": "249",  "insulinAdjust": "0.4"},
+	{ "min": "250",  "max": "299",  "insulinAdjust": "0.6"},
+	{ "min": "300",  "max": "349",  "insulinAdjust": "0.8"},
+	{ "min": "350",  "max": "1000",  "insulinAdjust": "1.0"}
+	]

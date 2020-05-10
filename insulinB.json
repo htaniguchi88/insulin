@@ -1,0 +1,9 @@
+[
+{ "min": "-1000",  "max": "-71",  "insulinAdjust": "-1.0"},
+{ "min": "-70",  "max": "-51",  "insulinAdjust": "-0.8"},
+{ "min": "-50",  "max": "-31",  "insulinAdjust": "-0.4"},
+{ "min": "-30",  "max": "30",  "insulinAdjust": "0"},
+{ "min": "31",  "max": "60",  "insulinAdjust": "0.4"},
+{ "min": "61",  "max": "120",  "insulinAdjust": "0.6"},
+{ "min": "121",  "max": "1000",  "insulinAdjust": "1.0"}
+]

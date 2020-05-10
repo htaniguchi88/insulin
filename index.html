@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta  meta name="viewport"　charset='utf-8' />
+    <title>インスリン持続静脈内投与</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">インスリン持続静脈内投与</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <section class="col-sm-6 col-md-4 pt-4">
+                    <form onsubmit="return false">
+                    <div class="form-group">
+                        <label for="initial blood glucouse level">開始血糖値(mg/dl)</label>
+                        <input id="initial-glucouse-level-input" type="number" class="form-control" value="" min="180" max="1000" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="second glucouse level">1時間後血糖値(mg/dl)</label>
+                        <input id="second-glucose-level-input" type="number" class="form-control" value="" min="0" max="1000" required>
+                    </div>
+                    <input id="button-submit" type="submit" class="btn btn-primary btn-large" value="計算">
+                    </form>
+                </section>
+                <section class="col-sm-6 col-md-4 pt-4">
+                    <div class="card">
+                        <div class="card-header">
+                            投与インスリン量(ml/hr)
+                        </div>
+                        <div class="card-body">
+                            <div id="insulin-value" class="display-4"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+<script src="/dist/main.bundle.js"></script>
+</body>
+</html>
